@@ -1,5 +1,7 @@
 # rabbitmq-splitter
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](LICENSE) [![GitHub issues](https://img.shields.io/github/issues/khayyam90/rabbitmq-dispatcher)](https://github.com/khayyam90/rabbitmq-dispatcher/issues) [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)](https://www.rabbitmq.com/)
+
 Route a RabbitMQ message from one queue to many — with static or hot-reloaded YAML mappings.
 
 ![Architecture diagram](images/schema.png)
