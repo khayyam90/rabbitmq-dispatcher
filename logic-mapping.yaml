@@ -1,0 +1,11 @@
+incomingPurchase:
+  - billing
+  - supply
+  - shipping
+
+newUser:
+  - welcomeMessage
+
+deleteUser: 
+  - deletionMessage
+  - legal
