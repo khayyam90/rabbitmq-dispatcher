@@ -5,13 +5,14 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "dist/lib/rmq-connection.js",
-  "types": "dist/lib/rmq-connection.d.ts",
+  "main": "dist/rmq-connection.js",
+  "types": "dist/rmq-connection.d.ts",
   "files": [
-    "dist/lib"
+    "dist"
   ],
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/main.ts",
     "example": "nodemon --exec ts-node -r tsconfig-paths/register examples/yaml-routing.ts"
   },
